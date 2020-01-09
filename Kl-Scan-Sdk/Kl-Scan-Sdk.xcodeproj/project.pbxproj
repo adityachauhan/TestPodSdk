@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4826A3E423C49E3A00A02C5B /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826A3E323C49E3A00A02C5B /* AlertController.swift */; };
+		48D8A7ED238E4B5100550B67 /* Kl_Scan_Sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D8A7E3238E4B5000550B67 /* Kl_Scan_Sdk.framework */; };
+		48D8A7F2238E4B5100550B67 /* Kl_Scan_SdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D8A7F1238E4B5100550B67 /* Kl_Scan_SdkTests.swift */; };
+		48D8A7F4238E4B5100550B67 /* Kl_Scan_Sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D8A7E6238E4B5000550B67 /* Kl_Scan_Sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D8A803238E4E3400550B67 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D8A801238E4E3400550B67 /* ScanViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48D8A7EE238E4B5100550B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D8A7DA238E4B5000550B67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D8A7E2238E4B5000550B67;
+			remoteInfo = "Kl-Scan-Sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4826A3E323C49E3A00A02C5B /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		48D8A7E3238E4B5000550B67 /* Kl_Scan_Sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kl_Scan_Sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D8A7E6238E4B5000550B67 /* Kl_Scan_Sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kl_Scan_Sdk.h; sourceTree = "<group>"; };
+		48D8A7E7238E4B5000550B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D8A7EC238E4B5100550B67 /* Kl-Scan-SdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kl-Scan-SdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D8A7F1238E4B5100550B67 /* Kl_Scan_SdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kl_Scan_SdkTests.swift; sourceTree = "<group>"; };
+		48D8A7F3238E4B5100550B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D8A801238E4E3400550B67 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D8A7E0238E4B5000550B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D8A7E9238E4B5100550B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D8A7ED238E4B5100550B67 /* Kl_Scan_Sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D8A7D9238E4B5000550B67 = {
+			isa = PBXGroup;
+			children = (
+				48D8A7E5238E4B5000550B67 /* Kl-Scan-Sdk */,
+				48D8A7F0238E4B5100550B67 /* Kl-Scan-SdkTests */,
+				48D8A7E4238E4B5000550B67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48D8A7E4238E4B5000550B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48D8A7E3238E4B5000550B67 /* Kl_Scan_Sdk.framework */,
+				48D8A7EC238E4B5100550B67 /* Kl-Scan-SdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D8A7E5238E4B5000550B67 /* Kl-Scan-Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				48D8A7E6238E4B5000550B67 /* Kl_Scan_Sdk.h */,
+				48D8A7E7238E4B5000550B67 /* Info.plist */,
+				48D8A801238E4E3400550B67 /* ScanViewController.swift */,
+				4826A3E323C49E3A00A02C5B /* AlertController.swift */,
+			);
+			path = "Kl-Scan-Sdk";
+			sourceTree = "<group>";
+		};
+		48D8A7F0238E4B5100550B67 /* Kl-Scan-SdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				48D8A7F1238E4B5100550B67 /* Kl_Scan_SdkTests.swift */,
+				48D8A7F3238E4B5100550B67 /* Info.plist */,
+			);
+			path = "Kl-Scan-SdkTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48D8A7DE238E4B5000550B67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D8A7F4238E4B5100550B67 /* Kl_Scan_Sdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48D8A7E2238E4B5000550B67 /* Kl-Scan-Sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D8A7F7238E4B5100550B67 /* Build configuration list for PBXNativeTarget "Kl-Scan-Sdk" */;
+			buildPhases = (
+				48D8A7DE238E4B5000550B67 /* Headers */,
+				48D8A7DF238E4B5000550B67 /* Sources */,
+				48D8A7E0238E4B5000550B67 /* Frameworks */,
+				48D8A7E1238E4B5000550B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kl-Scan-Sdk";
+			productName = "Kl-Scan-Sdk";
+			productReference = 48D8A7E3238E4B5000550B67 /* Kl_Scan_Sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48D8A7EB238E4B5100550B67 /* Kl-Scan-SdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D8A7FA238E4B5100550B67 /* Build configuration list for PBXNativeTarget "Kl-Scan-SdkTests" */;
+			buildPhases = (
+				48D8A7E8238E4B5100550B67 /* Sources */,
+				48D8A7E9238E4B5100550B67 /* Frameworks */,
+				48D8A7EA238E4B5100550B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D8A7EF238E4B5100550B67 /* PBXTargetDependency */,
+			);
+			name = "Kl-Scan-SdkTests";
+			productName = "Kl-Scan-SdkTests";
+			productReference = 48D8A7EC238E4B5100550B67 /* Kl-Scan-SdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48D8A7DA238E4B5000550B67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Khosla Labs";
+				TargetAttributes = {
+					48D8A7E2238E4B5000550B67 = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
+					};
+					48D8A7EB238E4B5100550B67 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 48D8A7DD238E4B5000550B67 /* Build configuration list for PBXProject "Kl-Scan-Sdk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48D8A7D9238E4B5000550B67;
+			productRefGroup = 48D8A7E4238E4B5000550B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D8A7E2238E4B5000550B67 /* Kl-Scan-Sdk */,
+				48D8A7EB238E4B5100550B67 /* Kl-Scan-SdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48D8A7E1238E4B5000550B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D8A7EA238E4B5100550B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D8A7DF238E4B5000550B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A3E423C49E3A00A02C5B /* AlertController.swift in Sources */,
+				48D8A803238E4E3400550B67 /* ScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D8A7E8238E4B5100550B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D8A7F2238E4B5100550B67 /* Kl_Scan_SdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D8A7EF238E4B5100550B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D8A7E2238E4B5000550B67 /* Kl-Scan-Sdk */;
+			targetProxy = 48D8A7EE238E4B5100550B67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48D8A7F5238E4B5100550B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48D8A7F6238E4B5100550B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48D8A7F8238E4B5100550B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L2ZT375YYA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Kl-Scan-Sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klDevIos.Kl-Scan-Sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48D8A7F9238E4B5100550B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L2ZT375YYA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Kl-Scan-Sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klDevIos.Kl-Scan-Sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		48D8A7FB238E4B5100550B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2ZT375YYA;
+				INFOPLIST_FILE = "Kl-Scan-SdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klDevIos.Kl-Scan-SdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48D8A7FC238E4B5100550B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2ZT375YYA;
+				INFOPLIST_FILE = "Kl-Scan-SdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klDevIos.Kl-Scan-SdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48D8A7DD238E4B5000550B67 /* Build configuration list for PBXProject "Kl-Scan-Sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D8A7F5238E4B5100550B67 /* Debug */,
+				48D8A7F6238E4B5100550B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D8A7F7238E4B5100550B67 /* Build configuration list for PBXNativeTarget "Kl-Scan-Sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D8A7F8238E4B5100550B67 /* Debug */,
+				48D8A7F9238E4B5100550B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D8A7FA238E4B5100550B67 /* Build configuration list for PBXNativeTarget "Kl-Scan-SdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D8A7FB238E4B5100550B67 /* Debug */,
+				48D8A7FC238E4B5100550B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48D8A7DA238E4B5000550B67 /* Project object */;
+}
